@@ -7,8 +7,6 @@ import java.security.PublicKey;
  */
 public class Board {
     public Character[][] matrix;
-    public char X = 'X';
-    public char O = 'O';
     public Board(Character[][] matrix) {
         this.matrix = matrix;
     }
